@@ -14,6 +14,7 @@ import { ReactComponent as WrapIcon } from "../../assets/icons/wrap.svg";
 import { ReactComponent as BridgeIcon } from "../../assets/icons/bridge.svg";
 import { ReactComponent as ArrowUpIcon } from "../../assets/icons/arrow-up.svg";
 import { ReactComponent as ProIcon } from "../../assets/Olympus Logo.svg";
+import { ReactComponent as DominionIcon } from "../../assets/DominiumDAO 1.svg";
 import { Trans } from "@lingui/macro";
 import { trim, shorten } from "../../helpers";
 import { useAddress } from "src/hooks/web3Context";
@@ -84,12 +85,12 @@ function NavContent() {
       <Box className="dapp-sidebar-inner" display="flex" justifyContent="space-between" flexDirection="column">
         <div className="dapp-menu-top">
           <Box className="branding-header">
-            <Link href="https://olympusdao.finance" target="_blank">
+            <Link href="https://www.dominiumdao.finance/" target="_blank">
               <SvgIcon
                 color="primary"
-                component={OlympusIcon}
-                viewBox="0 0 151 100"
-                style={{ minWdth: "151px", minHeight: "98px", width: "151px" }}
+                component={DominionIcon}
+                viewBox="0 0 1000 1000"
+                style={{ minWdth: "", minHeight: "200", width: "1000" }}
               />
             </Link>
 
