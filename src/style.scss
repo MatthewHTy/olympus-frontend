@@ -10,11 +10,19 @@
 html,
 body,
 #root {
-  font-family: "Square";
+  font-family: "amadeusregular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
+
+// @font-face {
+//   font-family: 'amadeusregular';
+//   src: url('Amadeus-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+
+// }
 
 body {
   margin: 0;
