@@ -7,7 +7,7 @@ export const girthTheme = {
   gold: "#F8CC82",
   textHighlightColor: "#F4D092",
   backgroundColor: "#4158D0",
-  background: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
+  background: "linear-gradient(180deg, #4158D0 100%, #C850C0 46%, #FFCC70 100%)",
   paperBg: "#4242426A",
   menuBg: handleBackdropFilter("rgba(66, 66, 66, 0.41)"),
   modalBg: "#F9F9F9AA",
